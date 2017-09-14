@@ -1,0 +1,12 @@
+{
+  "name": "mittfromaloska",
+  "version": "1.0.0",
+  "description": "Mess with @mattfromalaska a little bit",
+  "main": "index.js",
+  "author": "Jacob See",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "twit": "^2.2.9"
+  }
+}
