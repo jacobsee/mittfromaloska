@@ -6,7 +6,9 @@
   "author": "Jacob See",
   "license": "MIT",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "lodash": "^4.17.4",
+    "meme-maker": "^2.1.2",
     "twit": "^2.2.9"
   }
 }
