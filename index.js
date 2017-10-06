@@ -82,6 +82,11 @@ stream.on("tweet", function(tweet, err) {
       var s1 = tweetText.substr(0, middle);
       var s2 = tweetText.substr(middle + 1);
 
+      if (tweetText.toLowerCase().includes("cut off")) {
+        s1 = "I HAVE";
+        s2 = "A BUG";
+      }
+
       var memeOptions = {
         image: "memes/" + memeImg,
         outfile: "outmemes/" + rnd + ".png",
