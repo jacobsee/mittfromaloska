@@ -124,10 +124,15 @@ stream.on("tweet", function(tweet, err) {
                   response
                 ) {
                   console.log(data);
+                  console.log(err);
                 });
+              } else {
+                console.log(err);
               }
             });
           });
+        } else {
+          console.log(err);
         }
       });
     });
